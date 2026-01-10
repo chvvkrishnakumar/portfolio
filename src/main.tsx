@@ -5,7 +5,10 @@ import { routeTree } from './routeTree.gen'
 import './globals.css'
 
 // Create router instance
-const router = createRouter({ routeTree })
+const router = createRouter({ 
+  routeTree,
+  basepath: '/portfolio'
+})
 
 // Register the router instance for type safety
 declare module '@tanstack/react-router' {
