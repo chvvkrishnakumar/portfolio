@@ -6,8 +6,7 @@ import { TanStackRouterVite } from '@tanstack/router-plugin/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   // Set base to repo name for GitHub Pages
-  // Change 'portfolio' to your repository name
-  base: process.env.GITHUB_ACTIONS ? '/portfolio/' : '/',
+  base: '/portfolio/',
   plugins: [
     TanStackRouterVite(),
     react(),
