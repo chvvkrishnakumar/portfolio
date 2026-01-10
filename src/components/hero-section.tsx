@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, MapPin, Download } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin } from "lucide-react";
 import OrbitingCircles from "@/components/ui/magic-ui/orbiting-circles";
 import { AnimatedBeam } from "@/components/ui/magic-ui/animated-beam";
 import Sparkles from "@/components/ui/magic-ui/sparkles";
@@ -110,17 +110,10 @@ export function HeroSection({ data }: HeroSectionProps) {
                 ref={buttonRef}
                 size="lg"
                 className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 shadow-xl hover:shadow-primary/30 transition-all duration-300 backdrop-blur-sm border-0 text-white font-semibold px-8 py-6 text-lg group"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 <Mail className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
                 Get In Touch
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="glass border-primary/30 hover:bg-primary/10 bg-background/50 backdrop-blur-md shadow-lg hover:shadow-xl transition-all duration-300 px-8 py-6 text-lg font-semibold group"
-              >
-                <Download className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
-                Download CV
               </Button>
             </motion.div>
 

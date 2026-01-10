@@ -47,9 +47,6 @@ export function Navigation() {
               </a>
             ))}
             <ThemeToggle />
-            <Button className="bg-primary hover:bg-primary/90">
-              Download CV
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -79,9 +76,6 @@ export function Navigation() {
                   {item.label}
                 </a>
               ))}
-              <Button className="bg-primary hover:bg-primary/90 w-fit">
-                Download CV
-              </Button>
             </div>
           </div>
         )}
