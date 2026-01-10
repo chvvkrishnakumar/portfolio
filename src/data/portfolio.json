@@ -1,0 +1,143 @@
+{
+  "personal": {
+    "name": "CH V V KRISHNA KUMAR",
+    "title": "Full Stack Developer",
+    "tagline": "Building digital experiences that matter",
+    "bio": "Passionate full-stack developer with 2.5+ years of experience creating scalable web applications. I love turning complex problems into simple, beautiful solutions.",
+    "location": "Vijayawada, India",
+    "email": "chvvkrishnakumar@gmail.com",
+    "phone": "+91 9603383260",
+    "website": "/",
+    "avatar": "/profile.webp",
+    "social": {
+      "github": "https://github.com/chvvkrishnakumar",
+      "linkedin": "https://www.linkedin.com/in/chvvkrishnakumar"
+    }
+  },
+  "skills": {
+    "technical": [
+      { "name": "JavaScript", "level": 95, "category": "Frontend" },
+      { "name": "TypeScript", "level": 90, "category": "Frontend" },
+      { "name": "React", "level": 92, "category": "Frontend" },
+      { "name": "React Native", "level": 88, "category": "Frontend" },
+      { "name": "Git", "level": 88, "category": "Version Control" },
+      { "name": "Node.js", "level": 85, "category": "Backend" },
+      { "name": "Bun", "level": 80, "category": "Backend" },
+      { "name": "Express.js", "level": 80, "category": "Backend" },
+      { "name": "Taiwind CSS", "level": 85, "category": "Frontend" },
+      { "name": "HTML5", "level": 95, "category": "Frontend" },
+      { "name": "CSS3", "level": 90, "category": "Frontend" },
+      { "name": "PostgreSQL", "level": 82, "category": "Database" }
+    ],
+    "soft": [
+      "Problem Solving",
+      "Team Collaboration",
+      "Communication",
+      "Agile Development"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Acintyo Tech Inovations Pvt Ltd",
+      "position": "Frontend Developer",
+      "duration": "Jun 2023 - Feb 2024",
+      "location": "Hyderabad, India",
+      "description": "Developed and maintained web applications using React. Collaborated with cross-functional teams to deliver high-quality products on time.",
+      "achievements": [
+        "Implemented responsive design techniques, enhancing mobile user experience",
+        "Implemented Ecommerce B2B and B2C portals using React",
+        "Seamless API integration with backend services"
+      ],
+      "technologies": ["React", "JavaScript", "CSS3", "HTML5", "Git"]
+    },
+    {
+      "company": "Buildbot Technologies Pvt Ltd",
+      "position": "Full Stack Developer",
+      "duration": "Feb 2024 - Present",
+      "location": "Vijayawada, India",
+      "description": "Built MVP from scratch and scaled to support rapid user growth. Worked closely with product team to deliver features quickly.",
+      "achievements": [
+        "Built Multiple Full Stack Applications from scratch using React.js and Node.js",
+        "Integrated payment processing and subscription management",
+        "Built real-time chat system with WebSocket technology",
+        "Applied Oops concept to improve code maintainability and scalability"
+      ],
+      "technologies": [
+        "React.js",
+        "ReactNative",
+        "Express.js",
+        "Fastify",
+        "PostgreSQL",
+        "Drizzle ORM",
+        "TypeORM",
+        "TypeScript",
+        "Tailwind CSS",
+        "Tanstack Query(React Query)",
+        "Socket.io",
+        "Git",
+        "Node.js",
+        "Bun"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "Bachelor of Technology in Mechanical Engineering",
+      "duration": "2021",
+      "gpa": "60.77/100.00 %",
+      "relevant_courses": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Expo-Natiwind-Template",
+      "description": "An open source starter template for building React Native applications using Expo and Tailwind CSS for styling.",
+      "image": "/placeholder.svg?height=300&width=500",
+      "technologies": ["React Native", "Expo", "NativeWind", "TypeScript"],
+      "features": [
+        "20+ Pre-built Components - Buttons, Cards, Dialogs, Bottom Sheets, and more",
+        "Platform-Specific UI - Automatic iOS/Android adaptations",
+        "Dark Mode Ready - System-aware theme switching",
+        "Permission Management - Unified API for all device permissions",
+        "TypeScript First - Full type safety out of the box",
+        "Production Ready - Best practices and scalable architecture"
+      ],
+      "github": "https://github.com/chvvkrishnakumar/expo-nativewind-template",
+      "demo": "https://chvvkrishnakumar.github.io/expo-nativewind-template",
+      "status": "Completed"
+    },
+    {
+      "title": "Machine Maintainance Management System",
+      "description": "A web and mobile application to manage and track maintenance activities for industrial machines, ensuring optimal performance and reduced downtime.",
+      "image": "/placeholder.svg?height=300&width=500",
+      "technologies": [
+        "React",
+        "React Native",
+        "Node.js",
+        "TypeScript",
+        "Express.js",
+        "PostgreSQL",
+        "Tailwind CSS"
+      ],
+      "features": [
+        "User Authentication and Role-Based Access Control",
+        "Machine Inventory Management",
+        "Maintenance Scheduling and Reminders",
+        "Work Order Creation and Tracking",
+        "Reporting and Analytics Dashboard"
+      ],
+      "github": "https://github.com/chvvkrishnakumar/mikrotek.github.io",
+      "demo": " https://chvvkrishnakumar.github.io/mikrotek.github.io/",
+      "status": "Semi-Completed"
+    }
+  ],
+  "testimonials": [],
+  "certifications": [],
+  "contact": {
+    "availability": "Available for full-time opportunities",
+    "response_time": "Usually responds within 24 hours",
+    "preferred_contact": "email",
+    "timezone": "India Standard Time (IST)"
+  }
+}

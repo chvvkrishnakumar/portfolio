@@ -1,0 +1,3 @@
+# This folder contains TanStack Router routes
+# Currently, routes are defined manually in src/main.tsx
+# You can add more route files here in the future
