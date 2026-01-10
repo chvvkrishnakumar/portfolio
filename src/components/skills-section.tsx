@@ -48,7 +48,7 @@ export function SkillsSection({ data }: SkillsSectionProps) {
   ];
 
   return (
-    <section id="skills" className="py-24 relative overflow-hidden">
+    <section id="skills" className="py-24 relative overflow-hidden scroll-mt-20">
       <Sparkles className="opacity-10" size="sm" density="low" speed="slow" />
 
       <div className="container mx-auto px-4 relative z-10">

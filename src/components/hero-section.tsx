@@ -36,7 +36,7 @@ export function HeroSection({ data }: HeroSectionProps) {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 md:pt-20">
       <div className="absolute inset-0 w-full h-full" ref={containerRef}>
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-accent/5" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--primary)_0%,_transparent_50%)] opacity-10" />
@@ -157,10 +157,10 @@ export function HeroSection({ data }: HeroSectionProps) {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="flex justify-center lg:justify-end"
           >
-            <div className="relative h-96 w-96">
-              <div className="flex h-full w-full items-center justify-center">
-                <div className="relative">
-                  <div ref={avatarRef} className="relative w-96 h-96 rounded-full z-10">
+            <div className="relative h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96 max-w-full">
+              <div className="flex h-full w-full items-center justify-center px-4">
+                <div className="relative max-w-full">
+                  <div ref={avatarRef} className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full z-10 mx-auto">
                     <img
                       src={data.avatar || "/placeholder.svg"}
                       alt={data.name}

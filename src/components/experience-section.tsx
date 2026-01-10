@@ -20,7 +20,7 @@ interface ExperienceSectionProps {
 
 export function ExperienceSection({ data }: ExperienceSectionProps) {
   return (
-    <section id="experience" className="py-20 bg-muted/20">
+    <section id="experience" className="py-20 bg-muted/20 scroll-mt-20">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 50 }}

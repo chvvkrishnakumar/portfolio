@@ -23,7 +23,7 @@ interface ProjectsSectionProps {
 
 export function ProjectsSection({ data }: ProjectsSectionProps) {
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="py-20 scroll-mt-20">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
