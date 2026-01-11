@@ -64,13 +64,13 @@ export function Navigation() {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-border">
-            <div className="flex flex-col space-y-4 pt-4">
+          <div className="md:hidden mt-4 pb-4 border-t border-border bg-background rounded-b-lg shadow-lg">
+            <div className="flex flex-col space-y-4 pt-4 px-2">
               {navItems.map((item) => (
                 <a
                   key={item.href}
                   href={item.href}
-                  className="text-foreground hover:text-primary transition-colors duration-200"
+                  className="text-foreground hover:text-primary transition-colors duration-200 py-2 px-4 rounded-md hover:bg-accent"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.label}
