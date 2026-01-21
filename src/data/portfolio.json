@@ -52,7 +52,7 @@
     },
     {
       "company": "Buildbot Technologies Pvt Ltd",
-      "position": "Full Stack Developer",
+      "position": "Software Engineer",
       "duration": "Feb 2024 - Present",
       "location": "Vijayawada, India",
       "description": "Built MVP from scratch and scaled to support rapid user growth. Worked closely with product team to deliver features quickly.",
@@ -93,7 +93,7 @@
     {
       "title": "Expo-Natiwind-Template",
       "description": "An open source starter template for building React Native applications using Expo and Tailwind CSS for styling.",
-      "image": "/portfolio/placeholder.svg?height=300&width=500",
+      "image": "/portfolio/expo-nativewind-template.png",
       "technologies": ["React Native", "Expo", "NativeWind", "TypeScript"],
       "features": [
         "20+ Pre-built Components - Buttons, Cards, Dialogs, Bottom Sheets, and more",
@@ -108,9 +108,31 @@
       "status": "Completed"
     },
     {
+      "title": "React Native Widget Library",
+      "description": "A comprehensive library of customizable widgets for React Native applications, designed to accelerate development and enhance user interfaces.",
+      "image": "/portfolio/react-native-metrify.png",
+      "technologies": [
+        "React Native",
+        "TypeScript",
+        "React Reanimated",
+        "React Native SVG"
+      ],
+      "features": [
+        "24+ Customizable Widgets - Charts, Gauges, Progress Bars, and more",
+        "Theming Support - Easy integration with existing design systems",
+        "Cross-Platform Compatibility - Works seamlessly on both iOS and Android",
+        "Extensive Documentation - Clear usage guides and examples",
+        "Open Source - Community-driven development and contributions",
+        "Available on NPM - Easy installation and updates"
+      ],
+      "github": "https://github.com/chvvkrishnakumar/react-native-metrify.git",
+      "demo": "https://www.npmjs.com/package/react-native-metrify?activeTab=readme",
+      "status": "Released on NPM"
+    },
+    {
       "title": "Machine Maintainance Management System",
       "description": "A web and mobile application to manage and track maintenance activities for industrial machines, ensuring optimal performance and reduced downtime.",
-      "image": "/portfolio/placeholder.svg?height=300&width=500",
+      "image": "/portfolio/maintanance-tracker.png",
       "technologies": [
         "React",
         "React Native",
