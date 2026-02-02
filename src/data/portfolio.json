@@ -21,13 +21,21 @@
       { "name": "React", "level": 92, "category": "Frontend" },
       { "name": "React Native", "level": 88, "category": "Frontend" },
       { "name": "Git", "level": 88, "category": "Version Control" },
+      { "name": "GitHub", "level": 88, "category": "Version Control" },
+      { "name": "Debugging", "level": 90, "category": "Frontend" },
       { "name": "Node.js", "level": 85, "category": "Backend" },
       { "name": "Bun", "level": 80, "category": "Backend" },
       { "name": "Express.js", "level": 80, "category": "Backend" },
+      { "name": "Fastify", "level": 85, "category": "Backend" },
       { "name": "Taiwind CSS", "level": 85, "category": "Frontend" },
       { "name": "HTML5", "level": 95, "category": "Frontend" },
       { "name": "CSS3", "level": 90, "category": "Frontend" },
-      { "name": "PostgreSQL", "level": 82, "category": "Database" }
+      { "name": "PostgreSQL", "level": 82, "category": "Database" },
+      { "name": "MongoDB", "level": 80, "category": "Database" },
+      { "name": "Firebase Database", "level": 78, "category": "Database" },
+      { "name": "Firebase", "level": 80, "category": "Backend" },
+      { "name": "Firebase Remote Config", "level": 78, "category": "Backend" },
+      { "name": "Drizzle ORM", "level": 85, "category": "Backend" }
     ],
     "soft": [
       "Problem Solving",

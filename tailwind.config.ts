@@ -6,6 +6,12 @@ export default {
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}',
   ],
+  safelist: [
+    'animate-marquee',
+    'animate-marquee-reverse',
+    'animate-marquee-vertical',
+    'animate-marquee-vertical-reverse',
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -59,7 +65,21 @@ export default {
           '5': 'hsl(var(--chart-5))',
         },
       },
+      animation: {
+        marquee: 'marquee var(--duration) linear infinite',
+        'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(calc(-100% - var(--gap)))' },
+        },
+        'marquee-vertical': {
+          from: { transform: 'translateY(0)' },
+          to: { transform: 'translateY(calc(-100% - var(--gap)))' },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-animate')],
 } satisfies Config

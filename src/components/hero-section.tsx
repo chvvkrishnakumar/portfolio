@@ -38,8 +38,8 @@ export function HeroSection({ data }: HeroSectionProps) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 md:pt-20">
       <div className="absolute inset-0 w-full h-full" ref={containerRef}>
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-accent/5" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--primary)_0%,_transparent_50%)] opacity-10" />
+        <div className="absolute inset-0 bg-linear-to-br from-primary/5 via-background to-accent/5" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,var(--primary)_0%,transparent_50%)] opacity-10" />
         <Sparkles
           className="opacity-30"
           size="md"
@@ -75,10 +75,10 @@ export function HeroSection({ data }: HeroSectionProps) {
             >
               Hi, I'm{" "}
               <span className="relative">
-                <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-pulse">
+                <span className="bg-linear-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-pulse">
                   {data.name}
                 </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 blur-xl -z-10" />
+                <div className="absolute inset-0 bg-linear-to-r from-primary/20 to-accent/20 blur-xl -z-10" />
               </span>
             </motion.h1>
 
@@ -109,7 +109,7 @@ export function HeroSection({ data }: HeroSectionProps) {
               <Button
                 ref={buttonRef}
                 size="lg"
-                className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 shadow-xl hover:shadow-primary/30 transition-all duration-300 backdrop-blur-sm border-0 text-white font-semibold px-8 py-6 text-lg group"
+                className="bg-linear-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 shadow-xl hover:shadow-primary/30 transition-all duration-300 backdrop-blur-sm border-0 text-white font-semibold px-8 py-6 text-lg group"
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 <Mail className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
@@ -160,7 +160,7 @@ export function HeroSection({ data }: HeroSectionProps) {
                       className="w-full h-full rounded-full object-cover border-4 border-primary/40 shadow-2xl backdrop-blur-sm glow-animation"
                     />
                   </div>
-                  <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 blur-xl -z-10" />
+                  <div className="absolute inset-0 rounded-full bg-linear-to-br from-primary/20 to-accent/20 blur-xl -z-10" />
                 </div>
 
                 <OrbitingCircles
@@ -168,7 +168,7 @@ export function HeroSection({ data }: HeroSectionProps) {
                   radius={160}
                   duration={20}
                 >
-                  <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-primary to-primary/80 text-primary-foreground shadow-xl backdrop-blur-sm border border-primary/30 hover:scale-110 transition-transform">
+                  <div className="flex h-full w-full items-center justify-center rounded-full bg-linear-to-br from-primary to-primary/80 text-primary-foreground shadow-xl backdrop-blur-sm border border-primary/30 hover:scale-110 transition-transform">
                     <Github className="h-6 w-6" />
                   </div>
                 </OrbitingCircles>
@@ -179,7 +179,7 @@ export function HeroSection({ data }: HeroSectionProps) {
                   duration={20}
                   delay={10}
                 >
-                  <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-accent to-accent/80 text-accent-foreground shadow-xl backdrop-blur-sm border border-accent/30 hover:scale-110 transition-transform">
+                  <div className="flex h-full w-full items-center justify-center rounded-full bg-linear-to-br from-accent to-accent/80 text-accent-foreground shadow-xl backdrop-blur-sm border border-accent/30 hover:scale-110 transition-transform">
                     <Linkedin className="h-6 w-6" />
                   </div>
                 </OrbitingCircles>
@@ -190,7 +190,7 @@ export function HeroSection({ data }: HeroSectionProps) {
                   duration={25}
                   reverse
                 >
-                  <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-secondary/60 to-secondary/40 backdrop-blur-sm shadow-lg border border-secondary/40 pulse-glow" />
+                  <div className="flex h-full w-full items-center justify-center rounded-full bg-linear-to-br from-secondary/60 to-secondary/40 backdrop-blur-sm shadow-lg border border-secondary/40 pulse-glow" />
                 </OrbitingCircles>
 
                 <OrbitingCircles
@@ -198,7 +198,7 @@ export function HeroSection({ data }: HeroSectionProps) {
                   radius={220}
                   duration={30}
                 >
-                  <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-primary/40 to-accent/40 backdrop-blur-sm shadow-md border border-primary/30" />
+                  <div className="flex h-full w-full items-center justify-center rounded-full bg-linear-to-br from-primary/40 to-accent/40 backdrop-blur-sm shadow-md border border-primary/30" />
                 </OrbitingCircles>
 
                 <OrbitingCircles
@@ -207,7 +207,7 @@ export function HeroSection({ data }: HeroSectionProps) {
                   duration={35}
                   delay={15}
                 >
-                  <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-accent/30 to-primary/30 backdrop-blur-sm shadow-sm" />
+                  <div className="flex h-full w-full items-center justify-center rounded-full bg-linear-to-br from-accent/30 to-primary/30 backdrop-blur-sm shadow-sm" />
                 </OrbitingCircles>
               </div>
             </div>

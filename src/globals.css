@@ -122,6 +122,10 @@ html, body {
   /* Added typography tokens for Work Sans and Open Sans */
   --font-heading: "Work Sans", system-ui, sans-serif;
   --font-body: "Open Sans", system-ui, sans-serif;
+
+  /* Animation definitions for Tailwind v4 */
+  --animate-marquee: marquee var(--duration) linear infinite;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
 }
 
 @layer base {
@@ -184,6 +188,24 @@ html, body {
   }
 }
 
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+
 .float-animation {
   animation: float 6s ease-in-out infinite;
 }
@@ -200,6 +222,23 @@ html, body {
   background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.2), transparent);
   background-size: 200% 100%;
   animation: shimmer 2s infinite;
+}
+
+/* Marquee animation classes */
+.animate-marquee {
+  animation: marquee var(--duration, 40s) linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee var(--duration, 40s) linear infinite reverse;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration, 40s) linear infinite;
+}
+
+.animate-marquee-vertical-reverse {
+  animation: marquee-vertical var(--duration, 40s) linear infinite reverse;
 }
 
 /* Modern glass morphism effects */
