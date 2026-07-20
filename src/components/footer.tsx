@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Heart } from "lucide-react";
 
 interface FooterProps {
   data: {
@@ -26,6 +26,15 @@ export function Footer({ data }: FooterProps) {
           </div>
 
           <div className="flex items-center space-x-6">
+            <a
+              href="https://github.com/sponsors/chvvkrishnakumar"
+              className="inline-flex items-center gap-2 rounded-full border border-pink-500/40 px-4 py-1.5 text-sm font-medium text-pink-500 hover:bg-pink-500/10 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Heart className="h-4 w-4 fill-current" />
+              Sponsor
+            </a>
             <a
               href={data.social.github}
               className="text-muted-foreground hover:text-primary transition-colors"

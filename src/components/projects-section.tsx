@@ -38,7 +38,7 @@ export function ProjectsSection({ data }: ProjectsSectionProps) {
 
         <div className="max-w-6xl mx-auto">
           <Carousel className="w-full">
-            <CarouselContent className="-ml-2 md:-ml-4">
+            <CarouselContent className="-ml-2 md:-ml-4 py-4">
               {data.map((project, index) => (
                 <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
                   <motion.div

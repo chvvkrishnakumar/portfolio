@@ -99,6 +99,31 @@
   ],
   "projects": [
     {
+      "title": "MQTT Studio",
+      "description": "A local-first desktop MQTT client for real-time broker connections, featuring a live topic explorer, message history, and publishing. Everything is stored locally in SQLite — nothing is ever exposed to the internet.",
+      "image": "/portfolio/mqtt-studio.png",
+      "technologies": [
+        "React",
+        "Electron",
+        "TypeScript",
+        "Tailwind CSS",
+        "SQLite",
+        "mqtt.js"
+      ],
+      "features": [
+        "Local-Only - Connections and message history stored locally in SQLite, nothing exposed to the internet",
+        "Live Export - Export live message streams as they arrive",
+        "Live Topic Tree Explorer - Real-time message updates with visual flash indicators",
+        "Connection Manager - Multiple brokers with TLS and credential storage",
+        "Publishing - Full QoS and retain controls",
+        "Stream Controls - Pause, resume, and clear live data streams",
+        "Cross-Platform - Installers for macOS, Windows, and Linux"
+      ],
+      "github": "https://github.com/chvvkrishnakumar/MQTT-Studio",
+      "demo": "https://github.com/chvvkrishnakumar/MQTT-Studio",
+      "status": "Active"
+    },
+    {
       "title": "Expo-Natiwind-Template",
       "description": "An open source starter template for building React Native applications using Expo and Tailwind CSS for styling.",
       "image": "/portfolio/expo-nativewind-template.png",
@@ -113,7 +138,7 @@
       ],
       "github": "https://github.com/chvvkrishnakumar/expo-nativewind-template",
       "demo": "https://chvvkrishnakumar.github.io/expo-nativewind-template",
-      "status": "Completed"
+      "status": "Active"
     },
     {
       "title": "React Native Widget Library",

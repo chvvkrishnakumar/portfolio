@@ -94,8 +94,10 @@ const CarouselContent = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HT
       <div
         ref={carouselRef}
         className={cn(
-          "flex overflow-x-auto scrollbar-hide snap-x snap-mandatory",
-          orientation === "horizontal" ? "flex-row" : "flex-col",
+          "flex scrollbar-hide snap-mandatory",
+          orientation === "horizontal"
+            ? "flex-row overflow-x-auto overflow-y-hidden snap-x"
+            : "flex-col overflow-y-auto overflow-x-hidden snap-y",
           className,
         )}
         {...props}
