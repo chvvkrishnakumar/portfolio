@@ -124,7 +124,7 @@
       "status": "Active"
     },
     {
-      "title": "Expo-Natiwind-Template",
+      "title": "NativeShad",
       "description": "An open source starter template for building React Native applications using Expo and Tailwind CSS for styling.",
       "image": "/portfolio/expo-nativewind-template.png",
       "technologies": ["React Native", "Expo", "NativeWind", "TypeScript"],
@@ -136,8 +136,8 @@
         "TypeScript First - Full type safety out of the box",
         "Production Ready - Best practices and scalable architecture"
       ],
-      "github": "https://github.com/chvvkrishnakumar/expo-nativewind-template",
-      "demo": "https://chvvkrishnakumar.github.io/expo-nativewind-template",
+      "github": "https://github.com/chvvkrishnakumar/NativeShad",
+      "demo": "https://github.com/chvvkrishnakumar/NativeShad",
       "status": "Active"
     },
     {
