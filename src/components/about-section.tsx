@@ -60,7 +60,7 @@ export function AboutSection({ data }: AboutSectionProps) {
           >
             <Card className="text-center p-4 md:p-6">
               <CardContent className="p-0">
-                <div className="text-2xl md:text-3xl font-bold text-primary mb-2">2.5+</div>
+                <div className="text-2xl md:text-3xl font-bold text-primary mb-2">3+</div>
                 <div className="text-sm md:text-base text-muted-foreground">Years Experience</div>
               </CardContent>
             </Card>
